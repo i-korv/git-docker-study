@@ -17,9 +17,13 @@ Git과 Docker를 학습하고 실습한 프로젝트입니다.
 | OS | Windows 11 + WSL2 Ubuntu 22.04 |
 | Shell | bash |
 | Docker | 29.9.2 |
-| Git | 2.53.0 |
+<img width="596" height="61" alt="image" src="https://github.com/user-attachments/assets/d7b55348-7cc5-47dd-b105-c9f26d532755" />
+
+| Git | 2.56.0 |
+<img width="547" height="72" alt="image" src="https://github.com/user-attachments/assets/96eabff6-2e74-4c87-b7a7-e30c3563ff42" />
+
 | 에디터 | VSCode |
-<img width="547" height="72" alt="image" src="https://github.com/user-attachments/assets/776759fe-0a11-432c-93af-2b0c9224ddec" />
+
 
 ---
 
