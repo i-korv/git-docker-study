@@ -19,6 +19,7 @@ Git과 Docker를 학습하고 실습한 프로젝트입니다.
 | Docker | 29.9.2 |
 | Git | 2.53.0 |
 | 에디터 | VSCode |
+<img width="547" height="72" alt="image" src="https://github.com/user-attachments/assets/776759fe-0a11-432c-93af-2b0c9224ddec" />
 
 ---
 
