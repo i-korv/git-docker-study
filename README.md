@@ -1,61 +1,22 @@
-# git-docker-study
-Git과 Docker를 학습하고 실습한 프로젝트입니다.
+## 0. 프로젝트 개요
+ 
+- **미션명**: 내 컴퓨터에 개발자용 '작업실' 꾸미기
+- **목표**: 터미널(리눅스 CLI), Docker, Git/GitHub를 직접 세팅하고, 실행 결과(로그/접속/데이터 유지)로 검증한다.
+- **핵심 학습 내용**
+  - 터미널로 디렉토리/파일/권한 다루기
+  - Docker 설치·점검, 컨테이너 실행/관리
+  - Dockerfile 기반 커스텀 이미지 + 포트 매핑
+  - 바인드 마운트 / 볼륨으로 변경 반영과 데이터 영속성 확인
+  - Git 설정 및 GitHub 연동
 
----
+## 4. 수행 로그
+### 4-1. WSL / 개발 환경 준비 
+**1) WSL 설치**
+- `wsl --install` 명령어 실행
+- PowerShell을 **관리자 권한으로 실행**한 뒤 입력
+- <img width="770" height="314" alt="image" src="https://github.com/user-attachments/assets/2fb05100-d002-4dc0-8235-a0f5487ebd2f" />
 
-## 📌 프로젝트 개요
-- **목표**: Git 버전관리 + Docker 컨테이너 기초 습득
-- **기간**: [2026.11.03] ~ [완료일]
-- **주요 성과**: Nginx 웹서버 이미지 빌드 및 3가지 실행 방식 검증
-
----
-
-## 🖥️ 1) 실행 환경
-
-| 항목 | 버전 |
-|------|------|
-| OS | Windows 11 + WSL2 Ubuntu 22.04 |
-| Shell | bash |
-| Docker | 29.9.2 |
-<img width="596" height="61" alt="image" src="https://github.com/user-attachments/assets/d7b55348-7cc5-47dd-b105-c9f26d532755" />
-
-| Git | 2.56.0 |
-<img width="547" height="72" alt="image" src="https://github.com/user-attachments/assets/96eabff6-2e74-4c87-b7a7-e30c3563ff42" />
-
-| 에디터 | VSCode |
-
-
----
-
-## ✅ 2) 수행 체크리스트
-
-### 기초 환경 설정
-- [x] WSL2 Ubuntu 완전 재설치
-- [x] bash 터미널 기본 조작 (pwd, mkdir, ls, cd)
-- [x] 폴더 구조 설계 및 생성
-- [x] 파일 권한 변경 (chmod)
-
-### Docker 학습
-- [x] Docker 설치 및 버전 확인
-- [x] hello-world 컨테이너 실행
-- [x] Dockerfile 작성 (Nginx 기반)
-- [x] 이미지 빌드 (my-nginx:1.0)
-- [x] 컨테이너 실행 - 포트 매핑 (8080:80)
-- [x] 컨테이너 실행 - 바인드마운트 (8081:80)
-- [x] 컨테이너 실행 - 볼륨 연결 (8082:80)
-
-### 볼륨 & 영속성
-- [x] 볼륨 생성 (my-data)
-- [x] 볼륨 마운트 및 데이터 저장
-- [x] 컨테이너 삭제 후 볼륨 데이터 유지 확인 ✨
-- [x] 바인드마운트 실시간 반영 테스트
-
-### Git & GitHub
-- [x] Git 초기 설정 (user.name, user.email)
-- [x] GitHub 저장소 생성 (git-docker-study)
-- [x] VSCode GitHub 연동
-- [x] README.md 작성 및 커밋
-
----
-
-## 📂 3) 폴더 구조
+**2) 재부팅 후 — Linux 사용자 만들기**
+- 사용자 이름: `{{ 소문자, 공백 없이 }}`
+- 비밀번호: `********` (입력해도 화면에 안 보이는 게 정상)
+  
